@@ -1,1 +1,17 @@
 
+.todo__list {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    width: 100%;
+}
+
+.todo__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo__text {
+    display: inline-block;
+}
