@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>To do list</title>
+  </head>
+  <body>
+    <!-- Main -->
+
+    <main class="main">
+      <div class="caontainer">
+
+        <h1 class="todo__heading">todos</h1>
+        <!-- Todo form -->
+
+        <form class="todo__form">
+          <label class="todo__label">
+            <input
+              class="todo__input"
+              type="text"
+              placeholder="todos ..."
+              required
+            />
+          </label>
+          <button class="todo__add-button" type="submit">Add</button>
+        </form>
+
+        <!-- Todo result list -->
+        <ul class="todo__list">
+          <li class="todo__item">
+            <input class="todo__check-input" type="checkbox" />
+
+            <p class="todo__text">Do homework</p>
+
+            <button class="todo__edit-button">Edit</button>
+
+            <button class="todo__delete-button">Delete</button>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <script src="./js/utils.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
